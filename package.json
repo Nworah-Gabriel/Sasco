@@ -1,0 +1,56 @@
+{
+  "name": "orismedicallab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "orismedicallab",
+  "author": "Bennyyoung",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "rm -rf .cache && gatsby develop",
+    "start": "npm run develop && open http://localhost:8000/",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@locator/runtime": "^0.4.3",
+    "@mdx-js/react": "^3.0.1",
+    "@reduxjs/toolkit": "^2.2.6",
+    "@theme-ui/mdx": "^0.16.2",
+    "@types/react-redux": "^7.1.33",
+    "@types/redux": "^3.6.0",
+    "add": "^2.0.6",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "firebase": "^10.12.2",
+    "gatsby": "^5.13.6",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-react-svg": "^3.3.0",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-svgr-loader": "^0.1.0",
+    "gatsby-plugin-theme-ui": "^0.16.2",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "open": "^10.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.2.1",
+    "react-phone-input-2": "^2.15.1",
+    "react-phone-number-input": "^3.4.3",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "theme-ui": "^0.16.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-helmet": "^6.1.11",
+    "typescript": "^5.4.5"
+  }
+}
