@@ -2,9 +2,9 @@ import { Box, Flex, Text, Input, Button, Image, Link } from 'theme-ui';
 import { FaPhoneAlt, FaEnvelope, FaMapMarker, FaInstagram, FaFacebook, FaWhatsapp, FaTiktok } from 'react-icons/fa';
 import { Link as GatsbyLink } from "gatsby"
 import { RiCustomerService2Fill } from "react-icons/ri";
-
 import React from 'react';
-import orismedicarelabLogo from "images/orismedicarelabLogo.jpg"
+import sascoAlliedLogo from "images/sascoAlliedLogo.jpeg"
+
 const imageStyles = {
   display: 'flex',
   width: '90px',
@@ -23,7 +23,7 @@ const Footer = () => {
     <Box as="footer" sx={{ bg: '#414599', color: 'white', py: 4 }}>
       <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <Image
-          src={orismedicarelabLogo}
+          src={sascoAlliedLogo}
           sx={imageStyles}
         />
       </Box>
@@ -109,15 +109,15 @@ const Footer = () => {
       </Flex>
 
       <Flex sx={{ mt: 4, justifyContent: 'center' }}>
-        <Box as="a" href="https://web.facebook.com/people/Oris-medical-laboratory/100081132271615/" sx={{ mr: 4, color: 'white' }}>
+        <Box as="a" href="https://web.facebook.com/profile.php?id=100092988095570/" sx={{ mr: 4, color: 'white' }}>
           <FaFacebook size={24} />
         </Box>
-        <Box as="a" href="https://www.instagram.com/orismedicallab/" sx={{ mx: 2, mr: 4, color: 'white' }}>
+        {/* <Box as="a" href="https://www.instagram.com/orismedicallab/" sx={{ mx: 2, mr: 4, color: 'white' }}>
           <FaInstagram size={24} />
         </Box>
         <Box as="a" href="https://www.tiktok.com/@orislab?_t=8nwNNZsxOkP&_r=1/" sx={{ mx: 2, mr: 4, color: 'white' }}>
           <FaTiktok size={24} />
-        </Box>
+        </Box> */}
       </Flex>
     </Box>
   );

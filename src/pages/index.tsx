@@ -30,7 +30,7 @@ const Home = () => {
       />
       <Helmet>
         <meta
-          name="OrisMedLab"
+          name="sasco Allied"
           content="Oris Medical Laboratory provides quality, affordable, and accessible diagnostic services across Nigeria"
         />
       </Helmet>
@@ -57,14 +57,13 @@ const Home = () => {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            Providing Affordable Diagnostics
+            Your health, our priority—start your wellness journey with us today!
           </Heading>
           <Text as="p" sx={{ color: 'text', mb: 4, width: ['100%', '100%', '583px'], lineHeight: '36px', fontWeight: 'medium' }}>
-            Oris Medical Laboratory provides quality, affordable, and accessible diagnostic services across Nigeria.
-            We are committed to leveraging the latest technology to ensure accurate and timely results.
-            Our dedicated team of professionals is always ready to provide exceptional customer service and support.
-            With a network of laboratories nationwide, we aim to bring reliable healthcare closer to every community.
-            Trust Oris Medical Laboratory for your diagnostic needs, where precision and care come first.
+            At Sasco Hospital Life First, we believe everyone deserves to live their best life, starting with their health. Navigating wellness can be overwhelming with fads and conflicting advice, so we provide clear, reliable information, expert guidance, comprehensive diagnosis and treatment.
+            <br /><br />
+            Our team of health professionals, including doctors, nutritionists, pharmacists, nurses etc, is dedicated to providing top notch medical care for your well-being.
+            We’re your trusted partner in health. Whether you are in need of medical care and treatment, comprehensive diagnosis, revamping your wellness routine, or supporting your family, we’re here to meet your health needs.
           </Text>
         </Box>
 
@@ -113,8 +112,11 @@ const Home = () => {
 
           <Box sx={{ flex: '1' }}>
             <Text as="p" sx={{ color: '#333', fontSize: [1, 2], lineHeight: ['28px', '36px'], fontWeight: 'medium', maxWidth: '100%' }}>
-              The Sasco Hospital is a Private hospital, located at  Awodi Ora, Ajeromi/Ifelodun Local Government, Lagos State.  It was  established on 1/1/2013, and operates on 24hrs basis.
-              It is Licensed hospital by the Nigeria Ministry of Health, with facility code 24/02/1/2/2/0041 and registered as Primary Health Care Centre.
+              The Sasco Hospital Life First is a private hospital located at Awodi Ora, Ajeromi Ifelodun Local Government, Lagos State. It was registered on 17th of June 2019. It is a licensed hospital by the Nigeria Ministry of Health, with facility code 24/02/1/2/2/0041 and registered as Primary Health Care Centre.
+              <br /><br />
+              Some of our services include general medical services relating to the treatment of infectious diseases, tuberculosis, non-communicable diseases, family medicine, hepatitis, general minor surgeries, Antenatal Care (ANC), immunization, etc. Other services relate to family planning, nutrition, gynecological and pediatric services, health education and community mobilization, maternal and newborn care, onsite laboratory and onsite pharmacy.
+              <br /><br />
+              We are open 24hrs every day of the week, with experienced nurses and doctors ready to serve you.
             </Text>
           </Box>
         </Flex>
@@ -162,7 +164,7 @@ const Home = () => {
                 fontSize: ['20px', '30px'],
                 lineHeight: 'auto'
               }}>
-              Medical Services
+              Outpatient Services
             </Heading>
             <Text as="p"
               sx={{
@@ -171,7 +173,10 @@ const Home = () => {
                 lineHeight: '36px',
                 fontWeight: 'medium'
               }}>
-              Focuses on diagnosing and treating a range of health conditions, including infectious diseases and general family medicine. These services ensure personalized care for individuals and families. (Available).
+              <b>General Consultations:</b> Without being admitted, patients can come to the hospital to speak with doctors about their diagnoses, treatment options, and aftercare.<br />
+              <b>Preventive Health Services:</b> These include routine check-ups, vaccines, health examinations (e.g., blood pressure checks, cholesterol, cancer tests), and wellness programs meant to avoid the beginning of ailments.<br />
+              <b>Chronic Disease Management:</b> Continuous care and observation of long-term illnesses such as diabetes, high blood pressure, asthma, arthritis, etc.<br />
+              <b>Medical Diagnostics:</b> In order to guarantee precise evaluation and treatment planning for our patients, we provide thorough medical tests. Our cutting-edge diagnostic services include a range of methods and processes intended to offer comprehensive understanding of your medical condition.
             </Text>
           </Box>
 
@@ -181,7 +186,7 @@ const Home = () => {
         </Flex>
       </Box>
 
-      {/* Health Screening */}
+      {/* Inpatient Services */}
       <Box as="section"
         sx={{
           bg: '#F5F8FF',
@@ -189,8 +194,8 @@ const Home = () => {
           px: [3, 4],
           mb: '5rem',
           // borderRadius: ['30px', '200px'],
-          borderTopLeftRadius: ['30px', '200px'],
-          borderBottomLeftRadius: ['30px', '200px'],
+          borderTopLeftRadius: ['30px', '100px'],
+          borderBottomLeftRadius: ['30px', '100px'],
           borderTopRightRadius: ['30px', 0],
           borderBottomRightRadius: ['30px', 0],
           overflow: 'hidden',
@@ -211,7 +216,7 @@ const Home = () => {
                 fontSize: ['20px', '30px'],
                 lineHeight: 'auto'
               }}>
-              Surgical Services
+              In-patient Services
             </Heading>
             <Text as="p"
               sx={{
@@ -220,7 +225,8 @@ const Home = () => {
                 lineHeight: '36px',
                 fontWeight: 'medium'
               }}>
-              Offers general surgical procedures to address a variety of health issues requiring operative intervention. (Available).
+              <b>General Medicine Wards:</b> Patients are frequently admitted to a general medicine ward when they require medical treatment. Internal medicine specialists and nurses provide care for them here.<br />
+              <b>Surgical Admissions:</b> Our hospital offers preoperative and after care to patients having planned surgeries, whether they are urgent or elective.
             </Text>
           </Box>
 

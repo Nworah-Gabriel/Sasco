@@ -37,12 +37,12 @@ const Contact = () => {
                         </Box>
                         <Box>
                             <Flex sx={{ mt: 3 }}>
-                                <Box as="a" href="https://web.facebook.com/people/Oris-medical-laboratory/100081132271615/" sx={{ mr: 4, color: 'white' }}>
+                                <Box as="a" href="https://web.facebook.com/profile.php?id=100092988095570/" sx={{ mr: 4, color: 'white' }}>
                                     <FaFacebook size={24} />
                                 </Box>
-                                <Box as="a" href="https://www.instagram.com/orismedicallab/" sx={{ mr: 4, color: 'white' }}>
+                                {/* <Box as="a" href="https://www.instagram.com/orismedicallab/" sx={{ mr: 4, color: 'white' }}>
                                     <FaInstagram size={24} />
-                                </Box>
+                                </Box> */}
                             </Flex>
                         </Box>
                     </Box>
