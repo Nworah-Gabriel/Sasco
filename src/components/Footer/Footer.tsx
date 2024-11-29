@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarker, FaInstagram, FaFacebook, FaWhatsap
 import { Link as GatsbyLink } from "gatsby"
 import { RiCustomerService2Fill } from "react-icons/ri";
 import React from 'react';
-import sascoAlliedLogo from "images/sascoAlliedLogo.jpeg"
+import sascoAlliedLogo from "images/newsascologo.png"
 
 const imageStyles = {
   display: 'flex',

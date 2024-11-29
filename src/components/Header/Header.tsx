@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React, { useState } from "react"
 import { Box, Flex, Image } from "theme-ui"
-import sascoAlliedLogo from "images/sascoAlliedLogo.jpeg"
+import sascoAlliedLogo from "images/newsascologo.png"
 import Navbar from "components/Navbar/Navbar";
 import NavbarMobile from "components/NavbarMobile/NavbarMobile";
 import Hamburger from "components/Hamburger/Hamburger";

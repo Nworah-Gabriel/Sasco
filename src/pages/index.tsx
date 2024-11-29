@@ -2,10 +2,10 @@ import React from "react";
 import Layout from "components/Layout/Layout";
 import { Box, Flex, Heading, Text, Button, Image, Input } from 'theme-ui';
 import { Link } from "gatsby";
-import medicalDiagnostics from "images/medicalDiagnostics.jpg"
-import medicalDiagnostics2 from "images/medicalDiagnostics2.jpg"
-import healthScreening from "images/healthScreening.jpg"
-import bloodBanking from "images/bloodBanking.jpg"
+import medicalDiagnostics from "images/bigdoctor.jpg"
+import medicalDiagnostics2 from "images/malenurse.jpg"
+import healthScreening from "images/femaledoc.jpg"
+import bloodBanking from "images/femalenurse.jpg"
 import homeBackgroundImage from "images/homeBackgroundImage.jpg"
 import SvgImage from "components/SvgImage/SvgImage";
 import SEO from "components/SEO/SEO";
@@ -37,6 +37,11 @@ const Home = () => {
 
       {/* Banner */}
       <Flex sx={{ marginBottom: '5rem', flexDirection: ['column', "column", "row"] }}>
+      
+
+        <Box sx={{ flex: '1', mt: [4, 4, 0], display: "flex", justifyContent: 'center' }}>
+          <Image src={medicalDiagnostics} sx={{ borderRadius: 20, width: ['100%', '100%', 'auto'] }} />
+        </Box>
         <Box as="section"
           sx={{
             py: 5,
@@ -65,10 +70,6 @@ const Home = () => {
             Our team of health professionals, including doctors, nutritionists, pharmacists, nurses etc, is dedicated to providing top notch medical care for your well-being.
             We’re your trusted partner in health. Whether you are in need of medical care and treatment, comprehensive diagnosis, revamping your wellness routine, or supporting your family, we’re here to meet your health needs.
           </Text>
-        </Box>
-
-        <Box sx={{ flex: '1', mt: [4, 4, 0], display: "flex", justifyContent: 'center' }}>
-          <Image src={medicalDiagnostics} sx={{ borderRadius: 20, width: ['100%', '100%', 'auto'] }} />
         </Box>
 
       </Flex>
