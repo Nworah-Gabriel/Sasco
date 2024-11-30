@@ -47,7 +47,7 @@ const FAQPage = () => {
                     maxWidth: '800px',
                     margin: 'auto',
                     padding: '20px',
-                    backgroundColor: 'background',
+                    backgroundColor: '#f0f8ff',
                     color: 'text'
                 }}
             >
@@ -76,7 +76,7 @@ const FAQPage = () => {
                                 sx={{
                                     padding: '15px',
                                     cursor: 'pointer',
-                                    backgroundColor: 'background',
+                                    backgroundColor: '#f0f8ff',
                                     ':hover': {
                                         backgroundColor: 'muted'
                                     }
@@ -96,7 +96,7 @@ const FAQPage = () => {
                                 <Box
                                     sx={{
                                         padding: '15px',
-                                        backgroundColor: 'background',
+                                        backgroundColor: '#f0f8ff',
                                         color: 'text'
                                     }}
                                 >

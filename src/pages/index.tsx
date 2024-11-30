@@ -3,6 +3,7 @@ import Layout from "components/Layout/Layout";
 import { Box, Flex, Heading, Text, Button, Image, Input } from 'theme-ui';
 import { Link } from "gatsby";
 import medicalDiagnostics from "images/bigdoctor.jpg"
+import healthHome from "images/healthHome.jpg"
 import medicalDiagnostics2 from "images/malenurse.jpg"
 import healthScreening from "images/femaledoc.jpg"
 import bloodBanking from "images/femalenurse.jpg"
@@ -26,31 +27,30 @@ const Home = () => {
             content: 'index,follow'
           }
         ]}
-        keywords={['Medical Diagnostics', 'Health Screening', 'Blood Banking', 'Pre-Employment Test', "Food Handler's Test", "Routine Test", "Fertility Test", "S.T.D'S", 'Serology', 'Hematology', 'Microbiology', 'Parasitology', 'Chemistry', 'Hormonal Assays', 'Scan']}
+        keywords={['Outpatient Services', 'General Consultations', 'Preventive Health Services', 'Chronic Disease Management', "Medical Diagnostics", "In-patient Services", "Surgical Admissions", "Special Clinical Services", 'Serology', 'Hematology', 'Microbiology', 'Parasitology', 'Chemistry', 'Hormonal Assays', 'Scan']}
       />
       <Helmet>
         <meta
           name="sasco Allied"
-          content="Oris Medical Laboratory provides quality, affordable, and accessible diagnostic services across Nigeria"
+          content="At Sasco Hospital Life First, we believe everyone deserves to live their best life, starting with their health"
         />
       </Helmet>
 
       {/* Banner */}
-      <Flex sx={{ marginBottom: '5rem', flexDirection: ['column', "column", "row"] }}>
-      
+      <Flex sx={{ marginBottom: '5rem', flexDirection: ['column', "column", "row"], justifyContent: 'space-between' }}>
+
 
         <Box sx={{ flex: '1', mt: [4, 4, 0], display: "flex", justifyContent: 'center' }}>
-          <Image src={medicalDiagnostics} sx={{ borderRadius: 20, width: ['100%', '100%', 'auto'] }} />
+          <Image src={healthHome} sx={{
+            borderRadius: 20,
+            width: ['auto', '40%', 'auto'],
+            maxWidth: ['300px', '650px', '750px']
+          }} />
         </Box>
         <Box as="section"
-          sx={{
-            py: 5,
-            flex: '1',
-            backgroundImage: `url(${homeBackgroundImage})`,
-            backgroundSize: 'contain',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-          }}
+        sx={{
+          width: ['100%','50%']
+        }}
         >
           <Heading
             sx={{
@@ -135,7 +135,7 @@ const Home = () => {
         Our Services
       </Heading>
 
-      {/* Medical Diagnostics */}
+      {/* Outpatient Services */}
       <Box as="section"
         sx={{
           bg: '#FFF5FF',
@@ -187,7 +187,7 @@ const Home = () => {
         </Flex>
       </Box>
 
-      {/* Inpatient Services */}
+      {/* In-patient Services */}
       <Box as="section"
         sx={{
           bg: '#F5F8FF',
@@ -238,7 +238,7 @@ const Home = () => {
 
       </Box>
 
-      {/* Blood Banking */}
+      {/* Special Clinical Services */}
       <Box as="section"
         sx={{
           bg: '#FFF5FF',
