@@ -377,10 +377,20 @@ const Home = () => {
               justifyContent: "center",
             }}
           >
-            <Image
+            <video autoplay loop muted>
+              <source
+                src={
+                  "https://res.cloudinary.com/bloomhub/video/upload/v1733555988/WhatsApp_Video_2024-12-07_at_7.11.40_AM_c7x24s.mp4"
+                }
+                sx={{ borderRadius: 20, width: ["100%", "100%", "374.03px"] }}
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            {/* <Image
               src={healthScreening}
               sx={{ borderRadius: 20, width: ["100%", "100%", "374.03px"] }}
-            />
+            /> */}
           </Box>
         </Flex>
       </Box>
