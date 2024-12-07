@@ -377,7 +377,7 @@ const Home = () => {
               justifyContent: "center",
             }}
           >
-            <video width="640" height="360" controls autoplay loop muted>
+            <video width="1280" height="720" autoplay loop muted>
               <source
                 src={
                   "https://res.cloudinary.com/bloomhub/video/upload/v1733555988/WhatsApp_Video_2024-12-07_at_7.11.40_AM_c7x24s.mp4"
